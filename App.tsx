@@ -1,11 +1,12 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
 import ItemList from './componentes/itemList'; 
+import LoginScreen from './app/index';
 
 const App: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <ItemList />
+      <LoginScreen />
     </SafeAreaView>
   );
 };
